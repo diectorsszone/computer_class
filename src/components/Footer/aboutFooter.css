@@ -1,0 +1,134 @@
+/* Basic Reset for footer elements */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for overall layout */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Logo Section */
+.logoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.logo h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Social Media Section */
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #c9c9c9;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+  margin-left: 10px;
+}
+
+.socialIcons a {
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+  transition: all 300ms ease;
+}
+
+.socialIcons a:hover {
+  color: #1e90ff;
+}
+
+/* Links Sections */
+.linksSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.linksSection h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.linksSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.linksSection ul li {
+  margin-bottom: 10px;
+}
+
+.linksSection ul li a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  transition: all 300ms ease;
+}
+
+.linksSection ul li a:hover {
+  color: #ffb121;
+}
+
+/* Copyright Section */
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.copyright p {
+  margin: 0;
+  color: #bbb;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .logo h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .logoSection,
+  .linksSection {
+    margin-bottom: 20px;
+  }
+}

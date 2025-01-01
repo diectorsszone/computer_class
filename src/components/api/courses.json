@@ -1,0 +1,50 @@
+[
+    {
+        "id":"1",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Basic Computer Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+
+    {
+        "id":"2",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Basic typing Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+    
+    {
+        "id":"3",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Adca Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"4",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Web Development",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"5",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Telly Prime Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"6",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Graphic Design Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    }
+
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "id":"1",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Basic Computer Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+
+    {
+        "id":"2",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Basic typing Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+    
+    {
+        "id":"3",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Adca Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"4",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Telly Prime Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"5",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Advance Excel Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"6",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Corel Draw Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"7",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Ms Office Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"8",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Potoshop Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"9",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "DCA Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"10",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Tally ERP 9 Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"11",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "Web Development",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"12",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "HTML Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"13",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "CSS Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"14",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "CSS 3 Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    },
+   
+    {
+        "id":"15",
+        "futer_url": "./logo.jpg",
+        "futer_titel": "JavaScript Course",
+        "futer_dis": "Beginner To Advance",
+        "button_name": "Buy Now"
+    }
+
+]
