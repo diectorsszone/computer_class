@@ -5,11 +5,13 @@
     font-family: sans-serif;
 }
 
-h1 {
-    font-size: 50px;
-    line-height: 64px;
-    color: #222;
-}
+.bakbak-one-regular {
+    font-family: "Bakbak One", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: aqua;
+  }
+  
 
 h2 {
     font-size: 46px;
@@ -164,18 +166,25 @@ body {
 /* ========== Home Page ========== */
 
 .hero {
-    /* background-image: url("./img/na1.jpg"); */
-    background: #e3e6f3;
+    background: #b0f5fd6b;
+    background-image: url("../public/logo.png");
+
+    
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 500px;
     height: 88vh;
     width: 100vw;
     background-position: top 25% right 0;
-    padding: 0px 80px;
+    padding: 10px 80px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+.hero h2 {
+    font-size:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(4, 4, 123);
 }
 
 .hero h4 {
@@ -187,10 +196,11 @@ body {
 }
 
 .hero button {
-    color: #456b52;
+    color: #fa0404;
     border: 2px dashed #088178;
-    background: transparent;
-    padding: 10px 25px;
+    background: rgb(248, 231, 144);
+    padding: 5px 20px;
+    margin-left: 10px;
     font-size: 16px;
     border-radius: 6px;
     font-weight: 700;
