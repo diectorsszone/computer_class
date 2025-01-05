@@ -12,9 +12,7 @@ export const MainContent = () => {
         <h2>Computer Courses और SCIENCE के </h2 ><h2>सभी CONCEPTS को सीखाने और </h2 >
         <h2>समझाने हेतु तत्पर हैं  ...</h2 >
         <br />
-        <h1 className='bakbak-one-regular '>हम से जुरने के लिए ,<span><GoogleFormPopup/></span> </h1>
-        <h3>...</h3>
-        
+        <h1 className='bakbak-one-regular '>हम से जुरने के लिए ,<span><GoogleFormPopup/></span> </h1>        
     </section>
    </>
   );

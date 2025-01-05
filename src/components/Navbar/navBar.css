@@ -86,9 +86,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 60px;
     padding: 0px 80px;
-    background: #e3e6f3;
+    background: #013c3d;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.06);
     z-index: 99;
     position: sticky;
@@ -134,13 +134,13 @@ body {
     outline: none;
     font-size: 18px;
     font-weight: 600;
-    color: #1a1a1a;
+    color: #ffffff;
     transition: all 300ms ease;
 }
 
 .navbar li a:hover,
 .navbar li a.active {
-    color: #088178;
+    color: #feae01;
 }
 
 .navbar li a.active::after,
@@ -168,8 +168,6 @@ body {
 .hero {
     background: #b0f5fd6b;
     background-image: url("../public/logo.png");
-
-    
     background-repeat: no-repeat;
     background-size: 500px;
     height: 88vh;
@@ -419,10 +417,10 @@ body {
         justify-content: flex-start;
         position: fixed;
         top: 0px;
-        right: -300px;
+        right: -250px;
         height: 100vh;
-        width: 300px;
-        background: #e3e6f3;
+        width: 250px;
+        background: #013c3df0;
         box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 10px;
         transition: all 400ms ease-in-out;
@@ -434,6 +432,10 @@ body {
 
     .navbar li {
         margin-bottom: 25px;
+    }
+
+    .navbar li a {
+        font-size: 16px;
     }
 
     .mobile {
@@ -450,9 +452,9 @@ body {
     .close {
         display: block;
         position: absolute;
-        top: 30px;
+        top: 25px;
         left: 30px;
-        color: #222;
+        color: #fff;
         font-size: 24px;
     }
 
@@ -503,11 +505,19 @@ body {
         font-size: 32px;
     }
 
+    .header #bar {
+        color: #fff;
+    }
+
     .hero {
         padding: 0px 20px;
         background-position: 55%;
+        background-image: none;
     }
 
+    .hero h2 {
+        font-size: 18px;
+    }
     .about {
         height: 40vh;
     }

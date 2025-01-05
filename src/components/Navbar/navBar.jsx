@@ -4,28 +4,31 @@ import { Link } from 'react-router-dom';
 import Img from "../Public/logo.png";
 
 export const Navbar = () => {
-  // State to control the mobile menu visibility
+  
   const [isMobileMenuActive, setIsMobileMenuActive] = useState(false);
-  // State to track the active link
+  
   const [activeLink, setActiveLink] = useState("/");
 
-  // Function to toggle the mobile menu
   const toggleMobileMenu = () => {
     setIsMobileMenuActive(!isMobileMenuActive);
   };
 
-  // Function to handle the link click and set the active link
+  
   const handleLinkClick = (path) => {
     setActiveLink(path);
-    setIsMobileMenuActive(false); // Close mobile menu on link click
+    setIsMobileMenuActive(false);
   };
 
   return (
     <>
       <section id="header" className="header">
-        <a>
+        <Link
+          to="/" 
+          className={activeLink === '/' ? 'active' : ''} 
+          onClick={() => handleLinkClick('/')}
+        >
           <img src={Img} alt="SSZ" className='logo'/>
-        </a>
+        </Link>
         <div>
           <ul
             id="navbar"

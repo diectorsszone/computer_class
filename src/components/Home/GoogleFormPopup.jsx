@@ -1,65 +1,76 @@
 import React, { useState } from 'react';
+import { EnrolForm } from './enrolForm';
 
 const GoogleFormPopup = () => {
   const [showForm, setShowForm] = useState(false);
 
+  // Toggle Popup
   const togglePopup = () => {
     setShowForm(!showForm);
+
+    // Body Blur Effect
+    if (!showForm) {
+      document.body.style.overflow = 'hidden'; // Disable scrolling
+    } else {
+      document.body.style.overflow = 'auto'; // Enable scrolling
+    }
   };
 
   return (
-    <div>
-      <button onClick={togglePopup}>Open Google Form</button>
+    <>
+      {/* Open Button */}
+      <button onClick={togglePopup}>यहाँ Click करें </button>
 
+      {/* Modal */}
       {showForm && (
-        <div
+        <div 
           style={{
             position: 'fixed',
-            top: '0',
-            left: '0',
-            width: '100%',
-            height: '100%',
-            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+            top: 0,
+            left: 0,
+            width: '100vw',
+            height: '100vh',
+            background: 'rgba(0, 0, 0, 0.5)', // Dark transparent background
+            backdropFilter: 'blur(5px)', // Blur effect
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
+            zIndex: 1000,
           }}
         >
-          <div
+          <div 
             style={{
-              width: '80%',
-              height: '80%',
-              backgroundColor: 'white',
-              padding: '10px',
+              background: 'white',
+              padding: '0px ',
+              borderRadius: '8px',
+              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+              width: '100%',
+              height: "100%",
+              maxWidth: '900px',
               position: 'relative',
             }}
           >
-            <button
-              onClick={togglePopup}
+            {/* Close Button */}
+            <button 
+              onClick={togglePopup} 
               style={{
                 position: 'absolute',
-                top: '10px',
-                right: '10px',
-                fontSize: '16px',
+                top: '35px',
+                right: '25px',
+                fontSize: '26px',
+                padding : "10px 20px",
                 cursor: 'pointer',
+                border: 'none',
+                background: 'none',
               }}
             >
-              X
+              &times;
             </button>
-            <iframe
-              src="https://forms.gle/AtBG67WW7Y212RLt6"
-              width="100%"
-              height="100%"
-              frameBorder="0"
-              marginHeight="0"
-              marginWidth="0"
-            >
-              Loading...
-            </iframe >
+            <EnrolForm />
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 
