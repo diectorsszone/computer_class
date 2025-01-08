@@ -11,7 +11,7 @@ export const EnrolForm = () => {
           <input type="email" name="email" placeholder="ईमेल (optional)" />
           <input type="text" name="address" placeholder="पता"  />
           <input type="number" name="number" placeholder="फ़ोन नंबर"  />
-          <label>आप से बात करने की समय &#9660;</label>
+          {/* <label>आप से बात करने की समय &#9660;</label> */}
         
           <button type="submit" className="normal">जमा करे</button>
         </form>

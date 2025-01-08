@@ -8,11 +8,11 @@ export const MainContent = () => {
   return (
    <>
      <section id="hero" className="hero">
-        <h2>हम आपको ! सभी तरह  के   </h2>
-        <h2>Computer Courses और SCIENCE के </h2 ><h2>सभी CONCEPTS को सीखाने और </h2 >
-        <h2>समझाने हेतु तत्पर हैं  ...</h2 >
+        <h1>SCIENCE LAB & RESEARCH CENTER   </h1>
+        <h2>A new batch is starting on <B>15-01-2025</B> </h2 >
+        
         <br />
-        <h1 className='bakbak-one-regular '>हम से जुरने के लिए ,<span><GoogleFormPopup/></span> </h1>        
+        <h1 className='bakbak-one-regular '>ADMISSION के लिए ,<span><GoogleFormPopup/></span> </h1>        
     </section>
    </>
   );
