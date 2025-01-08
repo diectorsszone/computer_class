@@ -9,7 +9,7 @@ export const MainContent = () => {
    <>
      <section id="hero" className="hero">
         <h1>SCIENCE LAB & RESEARCH CENTER   </h1>
-        <h2>A new batch is starting on <B>15-01-2025</B> </h2 >
+        <h2>A new batch is starting on 15-01-2025 </h2 >
         
         <br />
         <h1 className='bakbak-one-regular '>ADMISSION के लिए ,<span><GoogleFormPopup/></span> </h1>        
