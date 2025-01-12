@@ -1,122 +1,107 @@
 [
     {
         "id":"1",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "Basic Computer Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/Xe6QTkdHOr0",
+        "titelname":"school management in excel"
     },
 
     {
         "id":"2",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "Basic typing Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/GPUp_AkZWxI",
+        "titelname":"Data validation in excel"
     },
-    
+
     {
         "id":"3",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "Adca Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/gBrN8SzciuI",
+        "titelname":"Percentage me 100% hi q"
     },
-   
+
     {
         "id":"4",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "Telly Prime Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/q8jn4xFvJrw",
+        "titelname": "stock management in excel"
     },
-   
+
     {
         "id":"5",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "Advance Excel Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/_ia6y9oR3L0",
+        "titelname": "Types of data validation"
     },
-   
+
     {
         "id":"6",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "Corel Draw Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/Z3Wx4hDTtUE",
+        "titelname": "Drawing in powerpoint"
     },
-   
     {
         "id":"7",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "Ms Office Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/Aa8F9Pre7s8",
+        "titelname": "MS Word Full Course in Hindi"
     },
-   
     {
         "id":"8",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "Potoshop Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/axSQ_UM9ePw",
+        "titelname": "Input message in excel"
     },
-   
     {
         "id":"9",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "DCA Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/DEPtlcR46fM",
+        "titelname": "How to insert button in pdf"
     },
-   
     {
         "id":"10",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "Tally ERP 9 Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/13gwOlDCrRA",
+        "titelname": "Triger function in powerpoint"
     },
-   
     {
         "id":"11",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "Web Development",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/1_2ka6BhZ-E",
+        "titelname": "Excel me short cut key banana sikhe"
     },
-   
     {
         "id":"12",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "HTML Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/KGGSxe7EpcQ",
+        "titelname": "Time calculation in excel"
     },
-   
     {
         "id":"13",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "CSS Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/Nu9WjaLXk9A",
+        "titelname": "Goal seek function in excel"
     },
-   
     {
         "id":"14",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "CSS 3 Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/Gwk08socul4",
+        "titelname": "Files lock in 2 minute"
     },
-   
     {
         "id":"15",
-        "futer_url": "./logo.jpg",
-        "futer_titel": "JavaScript Course",
-        "futer_dis": "Beginner To Advance",
-        "button_name": "Buy Now"
+        "cardurl": "https://www.youtube.com/embed/8ZWGL9oYX5A",
+        "titelname": "Animation in powerpoint"
+    },
+    {
+        "id":"16",
+        "cardurl": "https://www.youtube.com/embed/60olAqAmRHo",
+        "titelname": "Typing"
+    },
+    {
+        "id":"17",
+        "cardurl": "https://www.youtube.com/embed/qV7q5W03I8I",
+        "titelname": "Excel common problems and solutions"
+    },
+    {
+        "id":"18",
+        "cardurl": "https://www.youtube.com/embed/Gwk08socul4",
+        "titelname": "Files lock in 2 minute"
+    },
+    {
+        "id":"19",
+        "cardurl": "https://www.youtube.com/embed/8ZWGL9oYX5A",
+        "titelname": "Animation in powerpoint"
+    },
+    {
+        "id":"20",
+        "cardurl": "https://www.youtube.com/embed/60olAqAmRHo",
+        "titelname": "Typing"
     }
-
 ]

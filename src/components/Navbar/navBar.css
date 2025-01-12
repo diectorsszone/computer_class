@@ -252,27 +252,16 @@ body {
     box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
 }
 
-.feature .fe-box img {
+.feature .fe-box .iframe {
     width: 290px;
     height: 200px;
     margin-bottom: 10px;
 }
 
-.feature .fe-box h4,
-.feature .fe-box h5 {
-    text-align: left;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
-.feature .fe-box h6 {
-    cursor: pointer;
-    display: inline-block;
-    padding: 12px 7.2rem;
-    line-height: 1;
-    border-radius: 4px;
-    color: #088178;
-    background: #cdd4f2;
+.feature .fe-box h1{
+    font-size: 16px;
+    color: #456b52;
+    margin: 15px 0 20px 0px;
 }
 
 /* ================= Contacts =============== */
@@ -444,7 +433,7 @@ body {
     }
 
     .mobile i {
-        color: #1a1a1a;
+        color: #ffffff;
         font-size: 24px;
         padding-left: 20px;
     }
@@ -463,6 +452,7 @@ body {
     }
 
     .hero {
+        background-image: none;
         height: 80vh;
         padding: 0px 15px 40px 25px;
         background-position: top 30% right 30%;
@@ -531,12 +521,8 @@ body {
         margin: 0 0 15px 0;
     }
 
-    .feature .fe-box img {
+    .feature .fe-box .iframe {
         width: 220px;
-    }
-
-    .feature .fe-box h6 {
-        padding: 12px 5.2rem;
     }
 
     .contact-details {

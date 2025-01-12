@@ -10,11 +10,16 @@ export const AllCourses = () => {
         {FuterCard.map((futers) => {
           return (
             <div className="fe-box" key={futers.id}>
-                <img src={Img} alt="feature" />
-                <h4>{futers.futer_titel}</h4>
-                <h5>{futers.futer_dis}</h5>
-                <h6>{futers.button_name}</h6>
-            </div>
+            <iframe
+              src={futers.cardurl}
+              title={futers.titelname}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className='iframe'
+            ></iframe>
+            <h1>{futers.titelname}</h1>
+          </div>
           );
         })}
       </section>

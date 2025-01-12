@@ -5,13 +5,13 @@ export const ContactFrom = () => {
   return (
     <>
       <section id="from-details" className="section-p1 from-details">
-        <form method='post' action="http://localhost:5000/submit-form">
+        <form method='post' action="https://data.groupofsszone.org/submit-form">
           <span>LEAVE A MESSAGE</span>
           <h2>We love to hear from you</h2>
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="E-mail" required />
-          <input type="text" name="subject" placeholder="Subject" required />
-          <textarea name="message" cols="10" rows="5" placeholder="Your Message" required></textarea>
+          <input type="text" name="name" placeholder="Your Name"  />
+          <input type="email" name="email" placeholder="E-mail" />
+          <input type="text" name="subject" placeholder="Subject"  />
+          <textarea name="message" cols="10" rows="5" placeholder="Your Message" ></textarea>
           <button type="submit" className="normal">Submit</button>
         </form>
         <div className="people">
