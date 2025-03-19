@@ -7,7 +7,11 @@ export const AllCourses = () => {
   return (
     <>
       <section id="feature" className="section-p1 feature">
+<<<<<<< HEAD
         {FuterCard.map((futers) => {
+=======
+        {FuterCard.slice().reverse().map((futers) => {
+>>>>>>> 58c054c (sszone)
           return (
             <div className="fe-box" key={futers.id}>
             <iframe

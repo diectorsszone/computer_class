@@ -83,6 +83,7 @@ export const Navbar = () => {
                 My Courses
               </Link>
             </li>
+<<<<<<< HEAD
             <li>
               <Link
                 to="/contact"
@@ -92,6 +93,8 @@ export const Navbar = () => {
                 Contact
               </Link>
             </li>
+=======
+>>>>>>> 58c054c (sszone)
             <a href="#" id="close" className="close" onClick={toggleMobileMenu}>
               <i className="fa-solid fa-xmark"></i>
             </a>

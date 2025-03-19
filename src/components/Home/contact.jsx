@@ -14,11 +14,19 @@ export const Contact = () => {
             </li>
             <li>
               <i className="fa-regular fa-envelope"></i>
+<<<<<<< HEAD
               <p>hackervlogs6@gmail.com</p>
             </li>
             <li>
               <i className="fa-solid fa-phone"></i>
               <p>+91 7667363767</p>
+=======
+              <p>mail.groupofsszone@gmail.com</p>
+            </li>
+            <li>
+              <i className="fa-solid fa-phone"></i>
+              <p>+91 8793933743</p>
+>>>>>>> 58c054c (sszone)
             </li>
             <li>
               <i className="fa-regular fa-clock"></i>

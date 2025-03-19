@@ -205,6 +205,38 @@ body {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
+=======
+.see-more-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .see-more-container a {
+    background: #1e40af;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .see-more-container a:hover {
+    background: #0c2b92;
+  }
+  
+  .icn {
+    font-size: 1.2rem;
+  }
+  
+
+>>>>>>> 58c054c (sszone)
 
 /* ========== About ========== */
 

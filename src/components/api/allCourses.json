@@ -4,7 +4,11 @@
         "cardurl": "https://www.youtube.com/embed/Xe6QTkdHOr0",
         "titelname":"school management in excel"
     },
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 58c054c (sszone)
     {
         "id":"2",
         "cardurl": "https://www.youtube.com/embed/GPUp_AkZWxI",
@@ -103,5 +107,18 @@
         "id":"20",
         "cardurl": "https://www.youtube.com/embed/60olAqAmRHo",
         "titelname": "Typing"
+<<<<<<< HEAD
+=======
+    },
+    {
+        "id":"21",
+        "cardurl": "https://www.youtube.com/embed/9pcmqEjC2To",
+        "titelname": "chatgpt se english sikhen"
+    },
+    {
+        "id":"22",
+        "cardurl": "https://www.youtube.com/embed/FTull1o-uS8?si=HQ_mBnxugem0QPVS",
+        "titelname": "A I से english सीखें"
+>>>>>>> 58c054c (sszone)
     }
 ]
